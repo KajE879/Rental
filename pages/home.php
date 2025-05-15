@@ -1,3 +1,4 @@
+<?php require_once "database/connection.php"; ?>
 <?php require "includes/header.php" ?>
     <header>
         <div class="advertorials">
@@ -18,7 +19,6 @@
             </div>
         </div>
     </header>
-
     <main>
     <h2 class="section-title">Populaire auto's</h2>
     <div class="cars">
