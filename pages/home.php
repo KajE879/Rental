@@ -31,7 +31,7 @@
                         <?= $car['type']?>
                     </div>
                 </div>
-                <img src="../assets/images/products/car%20(<?= $car['id'] ?>).svg" alt="">
+                <img src="<?=$car['image_path']?>" alt=""> 
                 <div class="car-specification">
                     <span><img src="../assets/images/icons/gas-station.svg" alt=""><?= $car['fuel_capacity_liters'] . 'L' ?></span>
                     <span><img src="../assets/images/icons/car.svg" alt=""><?= $car['steering_type']?></span>
@@ -56,7 +56,7 @@
                         <?= $car['type']?>
                     </div>
                 </div>
-                <img src="../assets/images/products/car%20(<?= $car['id'] ?>).svg" alt="">
+                <img src="<?=$car['image_path']?>" alt=""> 
                 <div class="car-specification">
                     <span><img src="../assets/images/icons/gas-station.svg" alt=""><?= $car['fuel_capacity_liters'] . 'L' ?></span>
                     <span><img src="../assets/images/icons/car.svg" alt=""><?= $car['steering_type']?></span>

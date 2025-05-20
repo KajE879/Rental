@@ -1,8 +1,11 @@
 <?php require "../includes/header.php"; ?>
 <main>
-    <form action="../actions/add-car.php" method="post" class="account-form">
+    <form action="../actions/add-car.php" method="post" class="account-form" enctype="multipart/form-data">
         <label for="name">Name:</label>
         <input type="text" name="name" required>
+
+        <label for="image">Image</label>
+        <input type="file" name="image" required>
 
         <label for="description">Description:</label>
         <input type="text" name="description">
