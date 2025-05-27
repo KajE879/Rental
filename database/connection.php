@@ -5,7 +5,7 @@ $password = "";
 try {
     $conn = new PDO("mysql:host=localhost;dbname=rydr", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $stmt = $conn->query("SELECT * FROM cars ORDER BY id ASC LIMIT 12");
+    $stmt = $conn->query("SELECT * FROM cars ORDER BY id ASC");
     $cars = $stmt->fetchAll(PDO::FETCH_ASSOC);
 } catch(PDOException $e) {
     echo "Connection failed: " . $e->getMessage();

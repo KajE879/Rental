@@ -39,7 +39,7 @@
                 </div>
                 <div class="rent-details">
                     <span><span class="font-weight-bold"><?= '€' . $car['price_per_day']?></span> / dag</span>
-                    <a href="/car-detail" class="button-primary">Bekijk nu</a>
+                    <a href="/car-detail?name=<?=$car['name']?>" class="button-primary">Bekijk nu</a>
                 </div>
             </div>
             <?php endif; ?>

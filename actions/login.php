@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "../database/connection.php";
+require_once "database/connection.php";
 
 $select_user = $conn->prepare("SELECT * FROM account WHERE email = :email");
 $select_user->bindParam(":email", $_POST['email']);
