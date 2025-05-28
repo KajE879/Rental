@@ -4,10 +4,10 @@
     <h2>Over Rydr.</h2>
     <div class="grid">
         <div class="row">
-            <p>Ons hoofdkantoor bevindt zich in het bruisende hart van Rotterdam, direct naast het Centraal Station.
-                Hier combineren we technologie, design en klantgerichtheid onder één dak.</p>
-            <p> In een modern pand met uitzicht op de skyline werken we elke dag aan de mobiliteit van morgen. Loop je
-                een keer binnen? De koffie staat klaar.</p>
+            <p>Ons toegewijde team in Rotterdam staat dagelijks klaar om u te helpen met passie voor auto’s en oog voor service. Van ervaren monteurs tot klantvriendelijke adviseurs 
+                – samen zorgen wij voor kwaliteit, betrouwbaarheid en persoonlijke aandacht</p>
+            <p> Bij ons autobedrijf in Rotterdam streven we naar topkwaliteit en vertrouwen in alles wat we doen.
+                 We geloven in duurzame mobiliteit, uitstekende service en langdurige relaties met onze klanten. Uw rijplezier is onze drijfveer.</p>
         </div>
         <div class="row">
             <img src="../assets/images/work-place.png" alt="" width="400">
