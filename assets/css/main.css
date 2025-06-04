@@ -3,6 +3,44 @@
   font-family: "Plus Jakarta Sans";
 }
 
+ /*ons-aanbod*/
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+.filter-bar {
+  width: 250px;
+  background: #f4f4f4;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+
+
+
 body {
   background-color: #F6F7F9;
   margin: 0;
@@ -487,3 +525,4 @@ footer .footer-links .links ul a {
 }
 
 /*# sourceMappingURL=main.css.map */
+

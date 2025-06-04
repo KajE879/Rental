@@ -72,8 +72,7 @@
     </div>
     </div>
     <div class="show-more">
-        <a class="button-primary" href="#">Toon alle</a>
+        <a class="button-primary" href="pages/ons-aanbod.php">Toon alle</a>
     </div>
     </main>
-
 <?php require "includes/footer.php" ?>
