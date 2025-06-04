@@ -1,5 +1,5 @@
-<?php require_once "../database/connection.php"; ?>
-<?php require "../includes/header.php" ?>
+<?php require_once "database/connection.php"; ?>
+<?php require "includes/header.php" ?>
     <div class="container">
         <div class="filter-bar">
             <h3>Filters</h3>
@@ -56,5 +56,5 @@
         </div>
     </div>
 <script src="../assets/javascript/slider.js"></script>
-<?php require "../includes/footer.php" ?>
+<?php require "includes/footer.php" ?>
 
