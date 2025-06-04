@@ -1,6 +1,6 @@
 <?php require "includes/header.php" ?>
 <main>
-    <form action="/register-handler" method="post" class="account-form">
+    <form action="/register-handler" method="post" class="account-form" enctype="multipart/form-data">
         <h2>Maak een account aan</h2>
         <?php if (isset($_SESSION['message'])): ?>
             <div class="message">
@@ -15,6 +15,8 @@
         <input type="password" name="password" id="password" placeholder="Uw wachtwoord" required>
         <label for="confirm-password">Herhaal wachtwoord</label>
         <input type="password" name="confirm-password" id="confirm-password" placeholder="Uw wachtwoord" required>
+        <label for="image">Profile picture</label>
+        <input type="file" name="image" required>
         <input type="submit" value="Maak account aan" class="button-primary">
     </form>
 </main>
