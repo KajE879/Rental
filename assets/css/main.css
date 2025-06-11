@@ -224,6 +224,9 @@ main {
   padding: 24px;
   flex-direction: column;
   border-radius: 10px;
+    .button-primary{
+      z-index: 1;
+    }
 }
 .advertorial h2 {
   color: white;
