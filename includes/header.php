@@ -27,7 +27,7 @@
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/ons-aanbod">Ons aanbod</a></li>
+            <li><a href="../pages/ons-aanbod.php">Ons aanbod</a></li>
             <li><a href="#">Hulp nodig?</a></li>
             
         </ul>

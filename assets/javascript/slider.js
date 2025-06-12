@@ -1,9 +1,19 @@
-const range = document.getElementById('capacityRange');
-const output = document.getElementById('capacityValue');
+const literRange = document.getElementById('literRange');
+const literValue = document.getElementById('literValue');
 
-  capacityRange.addEventListener('input', () => {
-    const count = capacityRange.value;
-    capacityValue.textContent = `${count} ${count == 1 ? 'Person' : 'Personen'}`;
+literRange.addEventListener('input', () => {
+  literValue.textContent = `${literRange.value} L`;
 });
+
+const capacityRange = document.getElementById('capacityRange');
+const capacityValue = document.getElementById('capacityValue');
+
+capacityRange.addEventListener('input', () => {
+  const val = capacityRange.value;
+  capacityValue.textContent = `${val} ${val == 1 ? 'Person' : 'Personen'}`;
+});
+
+
+
 
 

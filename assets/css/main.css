@@ -83,8 +83,13 @@ main {
   padding: 10px 20px;
   max-width: fit-content;
   text-decoration: none;
-  
+  transition: background-color 500ms, transform 500ms;
 }
+.button-primary:hover {
+  background-color: #1549e3 !important;
+  transform: scale(1.05);
+}
+
 
 .succes-message {
   background-color: #cdffcd;
@@ -527,6 +532,4 @@ footer .footer-links .links ul a {
   padding: 1em 2em;
   border-radius: 10px;
 }
-
 /*# sourceMappingURL=main.css.map */
-
