@@ -27,7 +27,7 @@ if ($name) {
             <div class="row white-background">
                 <h2><?= $car['name']?></h2>
                 <div class="rating">
-                    <span class="stars stars-4"></span>
+                    <span class="stars stars-<?= $car['star']?>"></span>
                     <span>440+ reviewers</span>
                 </div>
                 <p><?= $car['description']?></p>
